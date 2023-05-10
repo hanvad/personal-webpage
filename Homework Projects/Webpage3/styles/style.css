@@ -1,0 +1,59 @@
+html{
+    background-color:lavenderblush;
+    font-family: "Lato", sans-serif;
+    margin: 2%;
+    color: rgb(92, 95, 170);
+}
+
+.nav{
+    background-color: lavender;
+    border-bottom: white solid 1px;
+    padding: 0% 3%;
+}
+
+a{
+    color: rgb(74, 77, 137);
+    margin: 0px;
+    padding: 0px 30px;
+    border: solid darkblue;
+    border-width: 0 thin;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(71, 74, 171);
+}
+
+.about_me{
+    background-color:lavender;
+    width: 30%;
+    padding: 1.5% 2% 3%;
+    border-radius:5px;
+    margin-bottom: 3%;
+    float: left;
+    
+}
+
+li{
+    margin: 4% 0%;
+}
+
+.imgcap{
+    display: inline-block;
+    margin: 1%;
+
+}
+
+img, .caption{
+    width: 30vw;
+    background-color: lavender;
+    padding: 10px;
+}
+
+img{
+    border: rgb(92, 95, 170) solid 7px;
+    border-radius: 2.5px;
+    padding: 0;
+}
+
