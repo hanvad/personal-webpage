@@ -282,11 +282,3 @@ guardButton.addEventListener("click", function(){player.addToQueue(guardMove, mo
 itemButton.addEventListener("click", function(){player.addToQueue(itemMove, monster)});
 
 monsterTurn();
-  
-    
-
-
-
-
-
-
