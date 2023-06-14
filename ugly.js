@@ -121,7 +121,7 @@ class Battler {
         }
 
         useItem(){
-            this.hp = Math.min(this.hp, 100);
+            this.hp = Math.min(this.hp + 20, 100);
         }
         
 }
