@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href = "styles.css" rel = "stylesheet" type = "text/css">
+    </head>
+
+    <body>
+
+        <audio autoplay src = ""></audio>
+        
+        
+        <div id = "battle">
+            <div class = "enemy">
+
+                <h3 id = "enemy_name"></h3>
+                <div id = "monster_max_health" class = "health_bar"></div>
+                <div id = "monster_current_health" class = "health_bar">100/100</div>
+
+                <div id = "monster_max_mana" class = "mana_bar"></div>
+                <div id = "monster_current_mana" class = "mana_bar">100/100</div>
+
+            </div>
+
+            
+            <img id = "monster_img" src="https://media.tenor.com/2WFZMXYHHnwAAAAi/mayker-gif-slime.gif" alt="Green Slime">
+                <hr>
+
+            <div class = "ui">
+                
+                <button class = "main_button" id = "attack_button">Attack</button>
+                <button class = "main_button" id = "skill_button">Charge</button>
+                <br>
+                <button class = "main_button" id = "guard_button">Guard</button>
+                <button class = "main_button" id = "item_button">Item</button>
+
+                <div id = "max_health" class = "health_bar"></div>
+                <div id = "current_health" class = "health_bar">100/100</div>
+
+
+                <div id = "max_mana" class = "mana_bar"></div>
+                <div id = "current_mana" class = "mana_bar">100/100</div>
+
+            </div>
+        </div>
+
+        <div id = "battle_log">
+            <h3 id = "heading">Battle Log</h3>
+            <ul id = "battle_list">
+
+            </ul>
+
+        </div>
+
+        <div id = "rules">
+            <h3>Commands:</h3>
+            <ul>
+                <li> <strong id = "attack_button">Attack:</strong> physical attack with 5 base power</li>
+                <li> <strong id = "skill_button">Charge:</strong> Your next physical attack deals extra damage</li>
+                <li> <strong id = "guard_button">Guard:</strong> The next attack you receive will be weakened</li>
+                <li> <strong id = "item_button">Item:</strong> I'll get to it</li>
+            </ul>
+
+        </div>
+        
+
+        <script src = "ugly.js"></script>
+    </body>
+</html>

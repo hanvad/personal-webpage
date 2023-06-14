@@ -1,0 +1,144 @@
+html{
+    font-family: monospace;
+}
+
+.main_button{
+    width: 75px;
+    text-align: center;
+    margin: 5px;
+}
+
+.health_bar{
+    margin-top: 10px;
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    background-color:red;
+}
+
+.mana_bar{
+    margin-top: 25px;
+    position: absolute;
+    width: 170px;
+    height: 10px;
+    background-color:black;
+}
+
+#current_health, #monster_current_health{
+    background-color:chartreuse;
+    color: black;
+}
+
+#current_mana, #monster_current_mana{
+    background-color:blue;
+    color: white;
+}
+
+#monster_img{
+    display:block;
+    margin-left: 50px;
+    width: 250px;
+}
+
+
+.ui, .enemy{
+    margin-top: 25px;
+    margin-left: 85px;
+    font-size: 9px;
+}
+
+#enemy_name{
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+
+#battle, #battle_log{
+    background-color:aliceblue;
+    width: 350px;
+    height: 475px;
+    border: 5px solid gray;
+    border-radius: 5px;
+    float: left;
+}
+
+hr{
+    margin-top: 20px;
+    border: 3px solid gray;
+    padding: 0px;
+
+}
+
+#battle_log{
+    margin-left: 10px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+li{
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.alert_message{
+    color: red;
+}
+
+.win_message{
+    color: chartreuse;
+}
+
+#heading{
+    text-align: center;
+}
+
+#rules{
+
+    border: 5px solid gray;
+    background-color: aliceblue;
+    display: inline-flex;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.main_button{
+    font-weight: bold;
+    height: 30px;
+    border:none;
+    border-bottom: 2px solid gray;
+    border-radius: 5px;
+    font-family:monospace;
+}
+
+#attack_button{
+    background-color: lightcoral;
+}
+
+#skill_button{
+    background-color: gold;
+}
+
+#guard_button{
+    background-color: lightgreen;
+}
+
+#item_button{
+    background-color: lightblue;
+}
+
+#attack_button:active, #skill_button:active, #guard_button:active, #item_button:active{
+    transition: all .1s ease;
+    border-bottom-color: aliceblue;
+    transform: translateY(2px);
+}
+
+#attack_button:hover, #skill_button:hover, #guard_button:hover, #item_button:hover{
+    font-size: 15px;
+    transition: all .05s ease;
+}
